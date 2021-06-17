@@ -1,0 +1,413 @@
+body{
+    text-align: center;
+    margin: 0px;
+    color: #fff;
+    
+}
+/*************title section*****************/
+#title-section{
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+    background-image: url('images/desktop/image-header.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    max-width: 100%;
+    height: 800px;/***How to scale the size of the image?***/
+    font-family: 'Barlow', sans-serif;
+    font-weight: 600;
+}
+#navbar-desktop{
+    padding: 40px;
+    font-size: 18px;
+}
+.logo-navbar{
+    color: #fff;
+    width:12% ;
+}
+#title-section .header{
+    padding: 7% 15%;
+}
+#header-heading{
+    font-family: 'Fraunces', serif;
+    font-weight: 900;
+    font-size: 2.5rem;
+    margin: 30px auto 40px auto;
+    letter-spacing: 10px;
+}
+#arrow-down{
+    margin-top: 30px;
+}
+#navbarTogglerDemo02 .btn{
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    border-radius: 30px;
+    padding:15px 25px; 
+}
+#navbarTogglerDemo02 .btn:hover{
+filter: opacity(0.7);
+background-color: #fff;
+color: #fff;
+}
+#nav-about{
+    margin: 0 20px 0 20px;
+    font-size: 20px;
+}
+#nav-services{
+    margin: 0 20px 0 20px;
+    font-size: 20px;
+}
+#nav-projects{
+    margin: 0 20px 0 20px;
+font-size: 20px;
+}
+#brand{
+    font-family: 'Barlow', sans-serif;
+    color: #fff; 
+    font-weight: bold;   
+    font-size: 2.5rem;
+    padding: 10px;
+}
+@media (min-width:576px)and (max-width: 992px){
+    #title-section{
+        max-width: 100%;
+    }
+    .logo-navbar{
+        width: 25%;
+    }
+    #header-heading{
+        text-align: center;
+        font-size: 3rem;
+        margin-bottom: 40px;
+        padding-top: 40px;
+    }
+    #header{
+        padding: 30px 0px;
+    }
+    #arrow-down{
+        margin-top: 60px;
+    }
+}
+@media (max-width:576px){
+   .logo-navbar{
+        width: 30%;
+    } 
+    #navbar-desktop{
+        padding: 20px;
+    }
+    #title-section{
+        background-image: url(images/mobile/image-header.jpg);
+        max-width: 100%;
+        height: 600px;
+    }
+    #header-heading{
+        text-align: center;
+        font-size:2.5rem ;
+        padding-top: 50px;
+    }
+    #header{
+        padding: 30px 0px;
+    }
+    #arrow-down{
+        margin-top: 40px;
+    }
+}
+/******************************************/
+#cherry-img{
+    background-image: url('images/desktop/image-graphic-design.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    max-height: 100%;
+    padding: 500px 14% 20px 14% ;
+    text-align: center;
+    color: hsl(167, 40%, 24%) ;
+    }
+#orange-img{
+    background-image: url('images/desktop/image-photography.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    max-height: 100%;
+    color: hsl(198, 62%, 26%);
+    padding: 500px 14% 20px 14% ;
+    text-align: center;
+}
+#cup-img{
+    background-image: url('images/desktop/image-stand-out.jpg');
+    background-size: cover;
+    max-width: 100%;
+    height: 600px;
+    background-repeat: no-repeat;
+}
+#egg-img{
+    background-image: url('images/desktop/image-transform.jpg');
+    background-size: cover;
+    max-width: 100%;
+    background-repeat: no-repeat;
+height: 600px;
+}
+.heading-medium{
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    font-size: 2.5rem;
+    color: hsl(212, 27%, 19%);
+}
+#transform{
+    padding: 10% 12%;
+    text-align: left;
+    height: 600px;
+}
+#stand-out{
+    padding: 7% 10%;
+    text-align: left;
+    height: 600px;
+
+}
+.heading-small{
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+#transform .font5{
+    display: inline-block;
+border-bottom: solid 7px hsl(51, 94%, 75%);
+border-radius: 10%;
+}
+#transform .font5:hover{
+    border-bottom-color:hsl(51, 100%, 50%)  ;
+}
+#stand-out .font5{
+    display: inline-block;
+    border-bottom: solid 7px hsl(7, 60%, 70%);
+    border-radius: 10%;
+}
+#stand-out .font5:hover{
+    border-bottom-color: hsl(7, 90%, 70%) ;
+}
+@media (max-width:576px){
+    #egg-img{
+        background-image: url(images/mobile/image-transform.jpg);
+        background-size: cover;
+        max-width: 100%;
+        height: 500px;
+        background-repeat: no-repeat;
+    }
+    #cup-img{
+        background-image: url(images/mobile/image-stand-out.jpg);
+        background-size: cover;
+        height: 500px;
+        max-width: 100%;
+        background-repeat: no-repeat;
+    }
+    #cherry-img{
+        background-image: url(images/mobile/image-graphic-design.jpg);
+        background-size: cover;
+        max-width: 100%;
+        background-repeat: no-repeat;
+        text-align: center;
+    }
+    #orange-img{
+        background-image: url(images/mobile/image-photography.jpg);
+        background-size: cover;
+        max-width: 100%;
+        background-repeat: no-repeat;
+        text-align: center;
+    }
+    #transform{
+        text-align: center;
+    }
+    #stand-out{
+        text-align: center;
+    }
+}
+/*************Testimonials*******************/
+#testimonials-section{
+    padding: 10% 13%;
+    text-align: center;
+    background-color: hsl(0, 0%, 100%);
+}
+.testimonials-pic{
+    width: 20%;
+    margin: 50px auto 30px auto;
+    border-radius: 100%;
+}
+#testimonials-title{
+    font-size: 1.5rem;
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    margin-bottom: 20px ;
+    letter-spacing: 5px;
+    color: hsl(210, 4%, 67%);
+}
+.testimonials-names{
+    font-family: 'Fraunces', serif;
+    font-size: 20px;
+    margin: 60px auto 10px auto;
+    color: hsl(212, 27%, 19%);
+}
+/**************About*****************/
+.about-container{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+height: 500px;
+margin: 0px;
+padding: 0px;
+align-items:stretch;
+}
+#MilkBottles{
+    background-image: url(images/desktop/image-gallery-milkbottles.jpg);
+    background-size: cover;
+    flex: 25%;
+    background-repeat: no-repeat;
+}
+#Orange{
+    background-image: url(images/desktop/image-gallery-orange.jpg);
+    background-size: cover;
+    flex: 25%;
+    background-repeat: no-repeat;
+}
+#Cone{
+    background-image: url(images/desktop/image-gallery-cone.jpg);
+    background-size: cover;
+    flex: 25%;
+    background-repeat: no-repeat;
+}
+#SugerCubes{
+    background-image: url(images/desktop/image-gallery-sugarcubes.jpg);
+    background-size: cover;
+    flex: 25%;
+    background-repeat: no-repeat;
+}
+@media(min-width:576px) and (max-width:992px){
+    .about-container{
+        flex-wrap: wrap;
+        margin: 0px;
+        padding: 0px;
+    height: 500px;
+    
+align-items:stretch;
+    }
+    #MilkBottles{
+        background-image: url(images/mobile/image-gallery-milkbottles.jpg);
+        background-size: cover;
+        flex: 50%;
+    }
+    #Orange{
+        background-image: url(images/mobile/image-gallery-orange.jpg);
+        flex: 50%;
+        background-size: cover;
+    }
+    #Cone{
+        background-image: url(images/mobile/image-gallery-cone.jpg);
+        flex: 50%;
+        background-size: cover;
+    }
+    #SugerCubes{
+        background-image: url(images/mobile/image-gallery-sugar-cubes.jpg);
+    flex: 50%;
+    background-size: cover;
+    } 
+}
+@media(max-width:576px){
+    .about-container{
+        flex-wrap: wrap;
+        margin: 0px;
+        padding: 0px;
+    height: 500px;
+        align-items:stretch;
+    }
+    #MilkBottles{
+        background-image: url(images/mobile/image-gallery-milkbottles.jpg);
+        background-size: cover;
+        flex: 50%;
+    }
+    #Orange{
+        background-image: url(images/mobile/image-gallery-orange.jpg);
+        flex: 50%;
+        background-size: cover;
+    }
+    #Cone{
+        background-image: url(images/mobile/image-gallery-cone.jpg);
+        background-size: cover;
+        flex: 50%;
+    }
+    #SugerCubes{
+        background-image: url(images/mobile/image-gallery-sugar-cubes.jpg);
+    flex: 50%;
+    background-size: cover;
+    } 
+}
+/***************Footer******************/
+#footer-section{
+    padding: 5% 15%;
+    background-color:#90d4c5 ;
+    text-align: center;
+    height: 400px;
+}
+.logo-footer{
+    margin-bottom: 50px;
+    width: 20%; 
+}
+.socials-icons{
+    margin: 50px 10px 10px 10px;
+    fill: hsl(168, 34%, 41%);
+}
+#footer-section .font2:hover{
+    color: #fff;
+    text-decoration: none;
+}
+.socials-icons:hover{
+    fill: #fff;
+}
+@media(max-width:576px){
+    #footer-section{
+        padding: 5% 5%;
+    }
+    .logo-footer{
+        width: 50%;
+        margin-top: 30px;
+    }
+    #footer-section .font2{
+        font-size: 15px;
+        margin: 15px;
+    }
+}
+/****************oTHER****************/
+.font1{
+    font-family: 'Barlow', sans-serif;
+    font-weight: 500;  
+    font-size: 15px;
+    color: hsl(210, 4%, 67%);
+}
+.font2{
+    font-family: 'Barlow', sans-serif;
+    font-weight: 500;  
+    font-size: 20px;
+    color: hsl(168, 34%, 41%);
+    margin: 30px 30px;
+    filter: opacity(0.8);
+}
+.font3{
+    font-family: 'Barlow', sans-serif;
+    font-weight: 600;  
+    font-size: 1rem;
+filter: opacity(0.7);
+}
+.font4{
+    font-family: 'Barlow', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: hsl(213, 9%, 39%);
+    filter: opacity(0.8);
+    margin-top: 30px;
+}
+.font5{
+    
+    font-family: 'Fraunces', serif;
+    font-size: 17px;
+    margin: 40px auto 10px auto;
+    color: hsl(212, 27%, 19%);
+} 
